@@ -1,0 +1,23 @@
+[workspace]
+members = [
+    "01_basics",
+    "02_ownership",
+    "03_structs_enums",
+    "04_collections",
+    "05_error_handling",
+    "06_generics",
+    "07_lifetimes",
+    "08_traits",
+    "09_closures_iterators",
+    "10_concurrency",
+    "11_smart_pointers",
+    "12_advanced",
+    "projects/*",
+]
+resolver = "2"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
