@@ -57,6 +57,15 @@ cargo test
 | 11 | Smart Pointers | ⭐⭐⭐⭐ | Box, Rc, RefCell |
 | 12 | Advanced | ⭐⭐⭐⭐ | Unsafe, Macros, FFI |
 
+## 🌍 Real-World Examples
+
+ดู [REALWORLD.md](REALWORLD.md) สำหรับตัวอย่างการใช้งานจริงจากบริษัทชั้นนำ:
+- **Discord** - Voice server
+- **Cloudflare** - Edge computing
+- **Figma** - Multiplayer sync
+- **Shopify** - WebAssembly
+- **AWS** - Lambda/Firecracker
+
 ## 📝 วิธีเรียน
 
 1. อ่าน `README.md` ในแต่ละโฟลเดอร์
