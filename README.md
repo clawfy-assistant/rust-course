@@ -71,6 +71,32 @@ cargo test
 - **Web Server** - HTTP server ง่ายๆ
 - **Chat App** - แชทผ่าน TCP
 
+## 🌍 Real-World Use Cases by Topic
+
+### 🏢 บริษัทที่ใช้ Rust จริง
+
+| บริษัท | ใช้ทำอะไร |
+|--------|-----------|
+| **Mozilla** | Firefox engine (Servo) |
+| **Discord** | Game SDK, Voice server |
+| **Cloudflare** | Edge computing, Proxy |
+| **Dropbox** | File sync engine |
+| **Amazon** | AWS Lambda, Firecracker VM |
+| **Microsoft** | Windows, Azure components |
+| **Figma** | Multiplayer sync engine |
+| **Shopify** | WebAssembly runtime |
+
+### 📊 Use Cases ตามหัวข้อ
+
+| หัวข้อ | ใช้ทำอะไรในชีวิตจริง | ตัวอย่าง |
+|--------|---------------------|---------|
+| **Ownership** | Memory-safe systems programming | ระบบปฏิบัติการ, Embedded |
+| **Concurrency** | High-performance servers | Web servers, Game servers |
+| **Traits** | Plugin systems, Abstractions | Web frameworks, ORM |
+| **Lifetimes** | Zero-copy parsing | JSON parsers, Network protocols |
+| **Smart Pointers** | Complex data structures | Compilers, Game engines |
+| **Async/Await** | I/O bound applications | Microservices, APIs |
+
 ## 📄 License
 
 MIT License - ใช้เรียนและแจกจ่ายได้เสรี

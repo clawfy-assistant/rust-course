@@ -49,6 +49,51 @@ for i in 0..5 {
 
 เปิดไฟล์ `src/lib.rs` และทำให้ทุกเทสต์ผ่าน!
 
+## 🌍 Real-World Examples
+
+### ใช้ในชีวิตจริง
+
+**Configuration Management**
+```rust
+const MAX_CONNECTIONS: u32 = 100;
+const DEFAULT_PORT: u16 = 8080;
+
+fn main() {
+    let mut current_connections = 0;
+    while current_connections < MAX_CONNECTIONS {
+        // รับ connection ใหม่
+        current_connections += 1;
+    }
+}
+```
+
+**Data Processing Pipeline**
+```rust
+fn process_batch(data: &[i32]) -> Vec<i32> {
+    let mut results = Vec::new();
+    for value in data {
+        if *value > 0 {
+            results.push(value * 2);
+        }
+    }
+    results
+}
+```
+
+**CLI Argument Parsing**
+```rust
+fn parse_args(args: &[String]) -> (String, u32) {
+    let command = &args[1];
+    let count: u32 = args[2].parse().unwrap_or(1);
+    (command.clone(), count)
+}
+```
+
+### ใช้ในโปรเจคไหนบ้าง
+- **Config files**: อ่านค่าคงที่ เช่น API keys, ports
+- **CLI tools**: Argument parsing, command handling
+- **Data validation**: Input checking, range validation
+
 ## ✅ รันเทสต์
 
 ```bash
